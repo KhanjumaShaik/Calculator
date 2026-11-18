@@ -1,5 +1,42 @@
-.list-group-item{
+.container{
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
 }
 
+.output{
+  outline:none;
+  border: none;
+  width:320px;
+  height: 90px;
+  font-size: 32px;
+  padding: 2px 10px;
+  background-color: black;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  color:white;
+  text-align: right;
+}
+
+button{
+  width:85px;
+  height: 90px;
+  font-size: 26px;
+  border:none;
+  cursor: pointer;
+  border-top: 1px solid #666;
+  border-right: 1px solid #666;
+
+}
+
+.operator{
+  background-color: orange;
+  border-right: none;
+}
+
+.operand{
+  background-color: lightgray;
+}
